@@ -1,5 +1,3 @@
-import scala.util.matching.Regex
-
 /**
   * Created by klemens on 20/04/2017.
   */
@@ -36,8 +34,6 @@ object PalindromicSlicesCounter {
         if (palindromesCount > 100000000) return -1
       }
     }
-//    println(results.deep.mkString("\n"))
-//    println(s)
     palindromesCount
   }
 
